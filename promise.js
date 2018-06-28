@@ -1,6 +1,6 @@
 let somePromise = new Promise((results,reject)=>{
     setTimeout(()=>{
-      results('Working!!!');
+      // results('Working!!!');
       reject('Not Working');
     },1000);
 })
